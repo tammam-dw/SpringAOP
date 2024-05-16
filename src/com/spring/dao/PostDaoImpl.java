@@ -8,7 +8,7 @@ public class PostDaoImpl implements BossDao {
 	@Override
 	public void allPosts() {
 			
-		System.out.println("my posts");
+		System.out.println("my posts------postDao");
 		
 	}
 
