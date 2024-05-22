@@ -2,7 +2,7 @@ package com.spring.dao;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("postServiceImpl")
 public class PostServiceImpl implements PostService {
 
 	@Override

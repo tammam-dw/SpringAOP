@@ -13,7 +13,7 @@ public class MainAop {
 		AnnotationConfigApplicationContext an = 
 				new AnnotationConfigApplicationContext(SpringContainer.class);
 		Student st = an.getBean("student1", Student.class);
-		BossDao po = an.getBean("postDaoImpl", BossDao.class);
+		BossDao po = an.getBean("postDaoImpl",BossDao.class);
 		PostService pos = an.getBean("postServiceImpl", PostService.class);
 		po.allPosts();
 		pos.allPosts();
