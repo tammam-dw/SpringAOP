@@ -16,7 +16,10 @@ public class MainAop {
 		BossDao po = an.getBean("postDaoImpl",BossDao.class);
 		PostService pos = an.getBean("postServiceImpl", PostService.class);
 		po.allPosts();
+		System.out.println(po.allLikes());
+		System.out.println("//////");
 		System.out.println(pos.allPosts());
+		
 
 	}
 

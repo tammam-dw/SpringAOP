@@ -12,4 +12,9 @@ public class PostDaoImpl implements BossDao {
 		
 	}
 
+	public String allLikes() {
+		// TODO Auto-generated method stub
+		return "Post Dao Servie likes";
+	}
+
 }
