@@ -6,9 +6,10 @@ import org.springframework.stereotype.Component;
 public class PostServiceImpl implements PostService {
 
 	@Override
-	public void allPosts() {
-		System.out.println("my posts-----service");
+	public String allPosts() {
 		
+		System.out.println("my posts-----service");
+		return " PostServiceImpl ";
 	}
 
 }
